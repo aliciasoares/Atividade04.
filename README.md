@@ -42,7 +42,7 @@ cd %2 → Entra na pasta do mês.
 set year=%1
 ```
 
-- E também o segundo valor passado *(mês)* à variável *month*. Nesse caso, o mês 2 representa fevereiro.
+- E também o segundo valor passado *(mês)* à variável *month*. Nesse caso, o mês 2 representa **fevereiro.**
 
 ```
 set month=%2
@@ -67,7 +67,7 @@ divisivelPor100: armazena o resto da divisão do ano por 100 (year %% 100).
 divisivelPor400: armazena o resto da divisão do ano por 400 (year %% 400).
 ```
 
-E então, coloquei outra parte do código para a verificação.
+E então, coloquei outra parte do código para a **verificação**.
 
 ## Verificar se o ano é divisível por 4
 - Nessa parte, O código começa verificando se o ano é **divisível por 4.** Se sim, ele entra no bloco de comandos seguinte. Caso contrário, o ano **não é bissexto** e o código vai para o bloco **else** no final.
