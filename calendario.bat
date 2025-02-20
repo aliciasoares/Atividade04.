@@ -30,10 +30,10 @@ if %divisivelPor4%==0 (
 )
 
 if %anoBissexto%==1 (
-    echo %year% é um ano bissexto.
+    echo %year% e um ano bissexto.
     set days=29
 ) else (
-    echo %year% não é um ano bissexto.
+    echo %year% nao e um ano bissexto.
     set days=28
 )
 if %month%==1 set days=31
